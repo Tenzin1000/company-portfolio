@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* ====home about====== */
+.home-about{
+    background:url('../image/background.jpg')center/cover no-repeat;
+    height:80vh;
+}
+.home-about .row{
+    height: 100%;
+}
+/* ===about-logo==== */
+.about-logo{
+    height:80vh;
+}
+.about-logo .row{
+    height: 100%;
+}
+.about-logo-img{
+    background:url('../image/office1.jpg')center/cover no-repeat;
+    height:80%;
+    width: 80%;
+}
+/* ===about-para====== */
+.about-para{
+    padding:40px 120px;
+}
+.about-para-title{
+    font-size:35px;
+    font-weight:800;
+    color:#1A545F;
+    margin:40px 0;
+}
+.about-para-p{
+    font-size:16px;
+    text-align: justify;
+    color:black;
+}
+@media screen and (max-width:900px){
+    .about-para{
+        padding:40px 80px;
+    }
+}
+@media screen and (max-width:768px){
+    .about-para{
+        padding:40px 60px;
+    }
+}

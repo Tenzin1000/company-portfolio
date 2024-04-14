@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.services-home{
+    height:80vh;
+    background: url('../image/background.jpg')center/cover no-repeat;
+}
+.services-home .row{
+    height:100%;
+}
+.services-points{
+    padding:40px 80px;
+}
+.services-points-subtitle{
+    font-weight:900;
+    font-size: 18px;
+    color:#333333;
+}
+.services-points-lists ul li{
+    font-size: 16px;
+    color:black;
+    margin:20px 0;
+}
+@media screen and (max-width:900px){
+    .services-points{
+        padding:40px 80px;
+    }
+}
+@media screen and (max-width:768px){
+    .services-points{
+        padding:40px 20px;
+    }
+}

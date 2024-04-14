@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.service-subtitle{
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.ourteam .row{
+    padding:40px;
+}
+.team-img{
+    background:url('../image/profile/profile1.jpg')center/cover no-repeat;
+}
+.team-img1{
+    background:url('../image/profile/profile2.jpg')center/cover no-repeat;
+}
+.team-img2{
+    background:url('../image/profile/profile3.jpg')center/cover no-repeat;
+}
+.team-img3{
+    background:url('../image/profile/profile1.jpg')center/cover no-repeat;
+}
+@media screen and (max-width:768px){
+    .team-img, .team-img1, .team-img2, .team-img3{
+        height:80vh;
+        margin-bottom:20px;
+    }
+    .service-subtitle{
+        font-size:20px
+    }
+}
+.team-name{
+    color:black;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom:10px;
+}
+.team-post{
+    font-size:24px;
+    color:#3CA6B9;
+    font-weight:600;
+    margin-bottom:10px;
+
+}
+.team-para{
+    color:black;
+    font-size:18px;
+    margin-bottom:10px;
+    text-align: justify;
+}
+.team-social .team-facebook a, .team-social .team-mail a{
+    color:#fff;
+    background-color: #3CA6B9;
+    padding:5px 10px ;
+    font-size:20px;
+    margin:0 10px;
+    transition:all .2s linear;
+}
+.team-social .team-facebook a:hover, .team-social .team-mail a:hover{
+    background-color:#1A545F;
+}
